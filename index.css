@@ -7,11 +7,9 @@ html{
 overflow-x: hidden;
 }
 
-.fg::-webkit-scrollbar-thumb{
-    background-color: crimson;
-  
-}
+
 .fg{
+    max-width:90%
 overflow:auto;
 }
 

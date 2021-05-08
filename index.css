@@ -9,8 +9,8 @@ overflow-x: hidden;
 
 
 .bek{
-    max-width:90%;
-overflow:auto;
+    width:90%;
+overflow:hidden;
 }
 
 

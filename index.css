@@ -1,0 +1,642 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    width: 10px;   
+}
+::-webkit-scrollbar-thumb{
+    background-color: crimson;
+    border-radius: 10px;
+}
+body{
+    overflow-x: hidden;
+}
+.buttonfixed{
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    right: 15px;
+    bottom: 15px;
+    background-color: transparent;
+    border: none;
+    background-image: url(./rasm/up-arrow.svg);
+    background-size:cover ;
+    cursor: pointer;
+}
+
+.home{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./rasm/5267194.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.menu{
+    width:100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(255,255,255, 0.5);
+    position: fixed;
+    transition: 0.7s;
+    z-index: 10000;
+}
+.box1{
+    width: 50%;
+    height: auto;
+}
+.box1 h1{
+    margin: 10px 0;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box2 a{
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+}
+.men{
+    padding: 200px 120px;
+}
+.men h1{
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.web{
+    color: crimson;
+}
+.men button{
+    margin: 40px 0;
+    background-color:crimson;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    border: none;
+    border: 1px solid crimson;
+}
+.men button:hover{
+    background-color: #fff;
+    color:crimson;
+    transition: 0.7s;
+    cursor: pointer;
+    border: 1px solid crimson;
+}
+.about{
+    width: 100%;
+    height: auto;
+  
+}
+.bosh{
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 50px 0 0 0;
+  color:crimson;
+}
+.ab{
+    width: 100%;
+    display: flex;
+}
+.ab1{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ab1 img{
+    width: 80%;
+}
+.ab2{
+    width: 50%;
+    height: 100%;
+    margin:50px;
+}
+ p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 0;
+    letter-spacing: 1px ;
+    line-height: 30px;
+    font-weight: 400;
+}
+#button{
+    margin: 40px 0;
+    background-color:crimson;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    border: none;
+    border: 1px solid crimson;
+}
+#button:hover{
+    background-color: #fff;
+    color:crimson;
+    transition: 0.7s;
+    cursor: pointer;
+    border: 1px solid;
+}
+.skills{
+    width: 100%;
+    height: auto;
+    background: #000016;
+    padding-bottom:00px ;
+}
+.sk{
+    width: 100%;
+    display: flex;
+    padding: 50px 100px;
+}
+.sk1{
+    width: 40%;
+  
+}
+.sk1 h1{  
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: #fff;
+}
+.sk1 p{
+    color: #fff;
+}
+.sk2{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.html{
+    width: 80%;
+}
+.html h2{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ht1{
+    margin: 20px 0;
+}
+.yoz{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.chiziq{
+    width: 100%;
+    height: 20px;
+    background-color: brown;
+    
+}
+.chiziq div{
+    width: 90%;
+    height: 100%;
+    background-color: darkblue;
+}
+.yoz1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.chiziq1{
+    width: 100%;
+    height: 20px;
+    background-color: brown;
+    
+}
+.chiziq1 div{
+    width: 80%;
+    height: 100%;
+    background-color: darkblue;
+}
+.yoz2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.chiziq2{
+    width: 100%;
+    height: 20px;
+    background-color: brown;
+    
+}
+.chiziq2 div{
+    width: 70%;
+    height: 100%;
+    background-color: darkblue;
+}
+.yoz3{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.chiziq3{
+    width: 100%;
+    height: 20px;
+    background-color: brown;
+    
+}
+.chiziq3 div{
+    width: 80%;
+    height: 100%;
+    background-color: darkblue;
+}
+.services{
+    width: 100%;
+    height: auto;
+}
+.ser{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.ser1{
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ser1 img{
+    width: 80%;
+}
+.ser2{
+    width: 50%;
+    height: auto;
+    padding: 50px;
+}
+.ser2 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+.ser21{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.ser211{
+    width: 50%;
+    height: auto;
+    border: 1px solid;
+    margin: 20px;
+    box-shadow: -10px -10px 10px #191919;
+    padding: 20px 10px;
+}
+.ser211 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: crimson;
+}
+.ser211 p{
+    word-break: break-all;
+}
+.ser211:hover{
+    box-shadow: none;
+    transition: 0.4s;
+}
+.work{
+    width: 100%;
+    height: auto;
+    background: #000016;
+}
+.wor{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+}   
+.work img{
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #ccc;
+}
+.wor1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}   
+.work img:hover{
+    box-shadow: none;
+    transition: 0.5s;
+}
+#but{
+    margin: 20px 0;
+}
+.contact{
+    width: 100%;
+    height: auto;
+    margin: 20px 0 100px 0;
+}
+.con1{
+    width: 100%;
+    height: auto;
+    margin: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.con11{
+    padding: 20px 0;
+    width: 40%;
+    height: auto;
+    box-shadow: 0 0 20px #ccc;
+    border-radius: 10px;
+}
+.con11 input{
+    width: 80%;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid;
+    margin: 20px 0;
+    font-size: 20px;
+    padding: 5px;
+}
+#mes{
+    width: 80%;
+    height: 150px;
+    max-height: 150px;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.con11 button{
+    width: 80%;
+    height: 50px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: crimson;
+    border: 1px solid crimson;
+    color: #fff;
+    margin: 20px 0 50px 0;
+}
+.con11 button:hover{
+    background-color: #fff;
+    color: crimson;
+    transition: 0.7s;
+    cursor: pointer;
+}
+.con2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+}
+.con21{
+    width: 13%;
+    height: 100px;
+    margin: 0 20px;
+    box-shadow: 0 0 10px #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.con21 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin: 20px 0 10px 0;
+}
+.con21 h2{
+    font-size: 20px;
+    font-weight: 50;
+}
+.con21:hover{
+    border: 1px solid;
+    box-shadow: none;
+    transition: 10s;
+    cursor: pointer;
+}
+.oxiri{
+    background-color:#000016;
+    padding: 30px 0;
+}
+.oxiri h1{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 5px 0;
+}
+.oxiri h2{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin: 5px 0;
+}
+.nav{
+    display: none;
+}
+.li{
+    width: 25px;
+    height: 3px;
+    background: #111;
+    border-radius: 10px;
+    margin: 5px 0;
+}
+.bar{
+    display: none;
+}
+@media (max-width:1000px){
+    
+    .box2 a{
+         font-size: 15px; 
+    }
+    .box1 h1{
+        font-size: 20px;
+    }
+    .men h1{
+        font-size: 40px;
+    }
+    .men button{
+        font-size: 15px;
+    }
+    #mavzu{
+       font-size: 20px;
+    }
+    #text{
+        font-size: 10px;
+        line-height: 15px;
+    }
+    #button{
+        font-size: 10px;
+    }
+    .bosh{
+        font-size: 20px;
+    }
+    .sk2{
+        width: 50%;
+    }
+    .sk2 h2{
+        font-size: 15px;
+    }
+    .chiziq{
+        height: 10px;
+    }
+    .chiziq1{
+        height: 10px;
+    }
+    .chiziq2{
+        height: 10px;
+    }
+    .chiziq3{
+        height: 10px;
+    }
+    .ser211 h1{
+        font-size: 15px;
+    }
+    .ser211 p{
+        font-size: 10px;
+        line-height: 10px;
+        margin: 10px 0;
+    }
+    .ser1 img{
+        width: 100%;
+    }
+    .wor img{
+        width: 25%;
+        height: 25%;
+    }
+    .con1 h1{
+        font-size: 20px;
+    }
+    .con1 input{
+        height: 20px;
+        margin: 10px 0;
+    }
+    .con21{
+        width: 30%;
+        margin: 20px;
+    }
+}
+@media(max-width:780px){
+    .box1{
+        margin-left: 20px;
+    }
+    .box2{
+        margin-right: 20px;
+    }
+    .box2 a{
+        font-size: 10px;
+    }
+    .men h1{
+        font-size: 30px;
+    }
+    .men button{
+        font-size: 10px;
+    }
+    .ser{
+       flex-direction: column;
+    }
+    .ser1{
+        width: 80%;
+        margin: auto;
+    }
+    .ser2{
+        width: 80%;
+    }
+    .con21 h1{
+        font-size: 15px;
+    }
+    .con21 h2{
+        font-size: 15px;
+    }
+    .oxiri h1{
+        font-size: 10px;
+    }
+    .oxiri h2{
+        font-size: 10px;
+    }
+}
+@media(max-width:700px){
+    .ab{
+        flex-direction: column;
+    }
+    .ab1{
+        width: 80%;
+        margin: auto;
+    }
+    .ab2{
+        width: 80%;
+    }
+    .sk{
+        flex-direction: column;
+    }
+    .sk1{
+        width: 80%;
+        order: 1;
+        margin-top: 10px;
+    }
+    .sk2{
+        width: 80%;
+        justify-content: left;
+    }
+    .nav{
+        display: block;
+        cursor: pointer;
+        font-size: 30px;
+        padding: 5px 10px;
+        position: relative;
+        right: 0;
+        background-color: crimson;
+        border: 1px solid crimson;
+    }
+    .box2{
+         position: fixed;
+         width: 40%;
+         height: 100vh;
+         right: -40%;
+         top: 0;
+         background-color: #111;
+         margin-right: 0;
+         overflow: hidden;
+         transition: 0.3s;
+     }
+    .box2 a{
+         text-align: center;
+         font-size: 20px;
+         margin: 20px 10px;
+         color: #fff;
+         display: block;
+     }
+     .bar{
+        display: block;
+    }
+
+}
+@media(max-width:550px){
+    .con11{
+        width: 60%;
+    }
+    .men h1{
+        font-size: 20px;
+    }
+    .men button{
+        font-size:10px;
+    }
+    .con21 h1{
+        font-size: 12px;
+    }
+    .con21 h2{
+        font-size: 10px; 
+    }
+}
+@media(max-width:450px){
+    .ser21{
+        flex-wrap: wrap;
+    }
+    .ser211{
+        width: 80%;
+    }
+}

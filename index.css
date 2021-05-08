@@ -11,6 +11,9 @@ overflow-x: hidden;
     background-color: crimson;
   
 }
+.fg{
+overflow:auto;
+}
 
 
 ::-webkit-scrollbar{

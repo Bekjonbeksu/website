@@ -6,6 +6,13 @@
 html{
 overflow-x: hidden;
 }
+
+.fg::-webkit-scrollbar-thumb{
+    background-color: crimson;
+  
+}
+
+
 ::-webkit-scrollbar{
     width: 10px;   
 }

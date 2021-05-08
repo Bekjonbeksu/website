@@ -597,7 +597,7 @@ body{
     }
     .box2{
          position: fixed;
-         width: 40%;
+         width: 70%;
          height: 100vh;
          right: -40%;
          top: 0;
@@ -616,14 +616,21 @@ body{
      .bar{
         display: block;
     }
+    .sk{
+        padding:50px;
+    }
 
 }
 @media(max-width:550px){
     .con11{
         width: 60%;
     }
+    .men{
+       padding:100px 50px;
+    }
     .men h1{
-        font-size: 20px;
+       
+        font-size: 30px;
     }
     .men button{
         font-size:10px;
